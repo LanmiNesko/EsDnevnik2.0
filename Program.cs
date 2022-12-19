@@ -16,7 +16,7 @@ namespace EsDnevnik2._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Osoba());
+            Application.Run(new MainPage());
         }
     }
 }
