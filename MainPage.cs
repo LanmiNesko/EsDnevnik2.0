@@ -28,5 +28,17 @@ namespace EsDnevnik2._0
             Raspodela form_raspodela = new Raspodela();
             form_raspodela.Show();
         }
+
+        private void tabelaUceniciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 form_Form1 = new Form1();
+            form_Form1.Show();
+        }
+
+        private void ocenaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ocena frm_ocena = new Ocena();
+            frm_ocena.Show();
+        }
     }
 }

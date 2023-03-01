@@ -47,11 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ocena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ocena.Designer.cs">
+      <DependentUpon>Ocena.cs</DependentUpon>
     </Compile>
     <Compile Include="Osoba.cs">
       <SubType>Form</SubType>
@@ -68,8 +80,14 @@
     <Compile Include="Raspodela.Designer.cs">
       <DependentUpon>Raspodela.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ocena.resx">
+      <DependentUpon>Ocena.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Osoba.resx">
       <DependentUpon>Osoba.cs</DependentUpon>
